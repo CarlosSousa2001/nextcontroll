@@ -3,7 +3,7 @@ import { FiUser, FiLogOut } from 'react-icons/fi'
 
 const Header = () => {
     return (
-        <header className="w-full flex items-center px-2 py-4 bg-white shadow-sm">
+        <header className="w-full flex items-center px-2 py-4 bg-white h-20 shadow-sm">
             <div className="max-w-screen-xl w-full mx-auto flex items-center justify-between">
                 
                 <Link href="/">
@@ -13,7 +13,7 @@ const Header = () => {
                     </h1>
                 </Link>
 
-                <div className="flex gap-2">
+                <div className="flex items-baseline gap-2">
                     <Link href="/dashboard">
                         <FiUser size={26} color="#4b5563" />
                     </Link>
